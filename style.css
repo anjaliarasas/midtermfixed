@@ -1,0 +1,163 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #111111;
+}
+canvas {
+  display: block;
+}
+
+header {
+  margin-top: -40px;
+  padding: 1em;
+  background: #111111;
+}
+
+body {
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-size: 13px;
+  text-align: left;
+  padding: 0em;
+  /* margin-left: 3em; */
+  text-align: center;
+  max-width: 30em;
+font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.title {
+  font-size: 5em;
+  font-family: medusa, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: CENTER;
+  color: white;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  text-decoration: none;
+}
+
+.slider{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 4vh;
+  animation: glow1 2s infinite alternate;
+}
+
+.slider::-webkit-slider-runnable-track{
+background: gray;
+border-radius: 10px;
+animation: glow1 2s infinite alternate;
+margin-bottom: 3em;
+}
+
+.slider::-webkit-slider-thumb{
+  width: 300px;
+  color: gray;
+  height:100px;
+}
+
+#canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.negativeone {
+  text-align:center;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+.negativezero {
+  text-align:center;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+.zero {
+  text-align:center;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+.zerop5 {
+  text-align:center;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+.one {
+  text-align:center;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+.negativeone, .negativezero, .zero, .zerop5, .one {
+  display: inline-block;
+    overflow: hidden;
+  text-align:center;
+  padding: 3em;
+}
+
+h1 {
+  text-align:center;
+}
+
+h3 {
+  color: white;
+  font-size: 15px;
+  text-align: left;
+  padding: 0em;
+  margin-left: 3em;
+  font-family: 'Libre Baskerville', serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 5px #faf2da, 0 0 7px #fdedbd, 0 0 9px #faf2da, 0 0 11px #faf2da, 0 0 13px #fff;
+  }
+  to {
+    text-shadow: 0 0 1px #fff, 0 0 3px #fff2cc, 0 0 5px #faf2da, 0 0 20px #faf2da, 0 0 25px #faf2da, 0 0 30px #faf2da, 0 0 35px #fff;
+  }
+}
+
+@keyframes glow1 {
+  0% {
+    box-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 5px #faf2da, 0 0 7px #fdedbd, 0 0 9px #faf2da, 0 0 11px #faf2da, 0 0 3px #fff;
+  }
+  100% {
+    box-shadow: 0 0 1px #fff, 0 0 3px #fff2cc, 0 0 5px #faf2da, 0 0 20px #faf2da, 0 0 25px #faf2da, 0 0 30px #faf2da, 0 0 5px #fff;
+  }
+}
+
